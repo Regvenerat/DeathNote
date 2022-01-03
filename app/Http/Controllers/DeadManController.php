@@ -9,8 +9,8 @@ class DeadManController extends Controller
 {
 	public function index()
 	{
-		$death = death::find(1);
-		dd($death);
-		//  return 'საღამო ორი';
+		// $death = death::find(1);
+		// dd($death);
+		 return 'საღამო ორი';
 	}
 }
